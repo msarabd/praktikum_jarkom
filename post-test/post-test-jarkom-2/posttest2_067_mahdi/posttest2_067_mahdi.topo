@@ -6,6 +6,20 @@
                 <interface sztype="Ethernet" interfacename="GE" count="24" />
             </slot>
         </dev>
+        <dev id="81684068-FF1B-479e-B5A4-8A9677C91BCB" name="R1" poe="0" model="Router" settings="" system_mac="54-89-98-81-36-37" com_port="2000" bootmode="0" cx="200.000000" cy="83.000000" edit_left="227" edit_top="137">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="2" />
+                <interface sztype="Ethernet" interfacename="GE" count="4" />
+                <interface sztype="Serial" interfacename="Serial" count="4" />
+            </slot>
+        </dev>
+        <dev id="28F9425B-9312-40d3-8483-3F1B13081B4E" name="R2" poe="0" model="Router" settings="" system_mac="54-89-98-6C-3A-51" com_port="2001" bootmode="0" cx="447.000000" cy="86.000000" edit_left="474" edit_top="140">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="2" />
+                <interface sztype="Ethernet" interfacename="GE" count="4" />
+                <interface sztype="Serial" interfacename="Serial" count="4" />
+            </slot>
+        </dev>
         <dev id="54B13714-1F88-4e7d-9CF2-CDAFAE03F9FE" name="R4" poe="0" model="Router" settings="" system_mac="54-89-98-D9-0D-3F" com_port="2003" bootmode="0" cx="165.000000" cy="276.000000" edit_left="192" edit_top="330">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="Ethernet" count="2" />
@@ -21,20 +35,6 @@
             </slot>
         </dev>
         <dev id="9F88FA1C-966B-4ed0-8416-8B1EF48A8DCF" name="R5" poe="0" model="Router" settings="" system_mac="54-89-98-63-1A-23" com_port="2004" bootmode="0" cx="480.000000" cy="275.000000" edit_left="507" edit_top="329">
-            <slot number="slot17" isMainBoard="1">
-                <interface sztype="Ethernet" interfacename="Ethernet" count="2" />
-                <interface sztype="Ethernet" interfacename="GE" count="4" />
-                <interface sztype="Serial" interfacename="Serial" count="4" />
-            </slot>
-        </dev>
-        <dev id="81684068-FF1B-479e-B5A4-8A9677C91BCB" name="R1" poe="0" model="Router" settings="" system_mac="54-89-98-81-36-37" com_port="2000" bootmode="0" cx="200.000000" cy="83.000000" edit_left="227" edit_top="137">
-            <slot number="slot17" isMainBoard="1">
-                <interface sztype="Ethernet" interfacename="Ethernet" count="2" />
-                <interface sztype="Ethernet" interfacename="GE" count="4" />
-                <interface sztype="Serial" interfacename="Serial" count="4" />
-            </slot>
-        </dev>
-        <dev id="28F9425B-9312-40d3-8483-3F1B13081B4E" name="R2" poe="0" model="Router" settings="" system_mac="54-89-98-6C-3A-51" com_port="2001" bootmode="0" cx="447.000000" cy="86.000000" edit_left="474" edit_top="140">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="Ethernet" count="2" />
                 <interface sztype="Ethernet" interfacename="GE" count="4" />
